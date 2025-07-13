@@ -4,20 +4,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>scientart | Arushi Chandola</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <style>
+    * {
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: "Georgia", serif;
       margin: 0;
       padding: 0;
-      background: #fdfdfd;
       color: #222;
+      background: linear-gradient(-45deg, #fff8f0, #fdfdfd, #f4f4f4, #fff1e6);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
     }
 
     header {
-      background-color: #fff8f0;
       padding: 2rem;
       text-align: center;
       border-bottom: 1px solid #eee;
+      animation: fadeIn 1.5s ease;
     }
 
     h1 {
@@ -31,10 +45,26 @@
       color: #444;
     }
 
+    .socials {
+      margin-top: 1rem;
+    }
+
+    .socials a {
+      margin: 0 0.6rem;
+      color: #333;
+      font-size: 1.4rem;
+      transition: color 0.3s ease;
+    }
+
+    .socials a:hover {
+      color: #0077b5;
+    }
+
     main {
       max-width: 800px;
       margin: 2rem auto;
       padding: 0 1rem;
+      animation: fadeInUp 1.2s ease;
     }
 
     section {
@@ -64,6 +94,12 @@
       max-width: 300px;
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .images img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     }
 
     footer {
@@ -72,22 +108,17 @@
       font-size: 1.2rem;
       margin: 3rem 0 2rem 0;
       color: #333;
+      animation: fadeIn 2s ease;
     }
 
-    .linkedin-icon {
-      display: block;
-      margin-top: 1rem;
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
 
-    .linkedin-icon img {
-      width: 30px;
-      height: 30px;
-      vertical-align: middle;
-      transition: transform 0.2s ease;
-    }
-
-    .linkedin-icon img:hover {
-      transform: scale(1.1);
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
@@ -97,6 +128,10 @@
   <header>
     <h1>scientart</h1>
     <div class="tagline">Driven by curiosity, exploring through Science, Maths and Code.</div>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/arushi-chandola-arsc" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/arushichandola" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
   </header>
 
   <main>
@@ -110,19 +145,14 @@
     <section>
       <h2>Visual</h2>
       <div class="images">
-        <img src="AC.2flowerblue.png" alt="Visual Blue Flower" />
-        <!-- Add more images like this if needed -->
+        <img src="AC.2flowerblue.png" alt="AC.2flowerblue"/>
+        <img src="AC.1flowerpink.png" alt="AC.1flowerpink"/>
       </div>
     </section>
   </main>
 
   <footer>
     आत्मनं विद्धि &nbsp;|&nbsp; एकोऽहम् बहुस्याम् &nbsp;|&nbsp; सर्वं खल्विदं ब्रह्म
-    <div class="linkedin-icon">
-      <a href="https://www.linkedin.com/in/arushi-chandola-arsc" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" />
-      </a>
-    </div>
   </footer>
 
 </body>
