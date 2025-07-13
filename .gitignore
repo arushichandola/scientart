@@ -1,0 +1,8 @@
+# Mathematica and general OS junk files
+*.nb~
+*.tmp
+*.log
+*.bak
+*.DS_Store
+Thumbs.db
+Icon?
