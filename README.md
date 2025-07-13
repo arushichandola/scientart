@@ -5,6 +5,7 @@ Blending Mathematics, Physics into computational visuals and much more through W
 
 Welcome to my collection of visuals created with Wolfram Mathematica, where I explore mathematical and physical structures, recursion, parametric design, and creative coding.
 ---
+<img src="AC.2flowerblue.png">
 
 
 ## 👤 About Me
