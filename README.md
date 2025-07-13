@@ -1,4 +1,4 @@
-# scientart
+# SCIENTART
 #  Mathematica - Wolfram 
 
 Blending Mathematics, Physics into computational visuals and much more through Wolfram Mathematica!
