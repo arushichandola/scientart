@@ -1,40 +1,23 @@
 # scientart
-# 🧮 Mathematica Visuals — Creative Code + Geometry
+# 🧮 Mathematica Visuals
 
 **Blending Mathematics, Physics into computational visuals and much more through Wolfram Mathematica!**
 
-Welcome to my collection of visuals created with **Wolfram Mathematica**, where I explore mathematical structures, recursion, parametric design, and creative coding.
-
-These pieces reflect a fusion of computation and aesthetics — often called **scientart** or **math art**.
-
+Welcome to my collection of visuals created with **Wolfram Mathematica**, where I explore mathematical and physical structures, recursion, parametric design, and creative coding.
 ---
 
 ## ✨ Featured Visuals
 
-### 🌸 Flower Pink
-<img src="images/AC.1flowerpink" width="500"/>
-
-_A symmetric visual created with layered geometric transformations._
+<img src="images/AC.1flowerpink.png" width="500"/>
 
 ---
 
-### 💠 Flower Blue
-<img src="images/AC.2flowerblue" width="500"/>
-
-_A recursive pattern exploring rotation, color contrast, and radial form._
-
----
-
-## 📁 Project Structure
-
-- `/images/` — exported visuals from Mathematica
-- `/notebooks/` — (optional) source `.nb` files if included
+<img src="images/AC.2flowerblue.png" width="500"/>
 
 ---
 
 ## 👤 About Me
-
-I'm an incoming CS graduate exploring the creative side of code — from symbolic computation to generative art.
+- 🔗 LinkedIn: [linkedin.com/in/arushichandola](https://www.linkedin.com/in/arushi-chandola-arsc)
 
 - 🌐 GitHub: [arushichandola](https://github.com/arushichandola)
 
